@@ -1,0 +1,11 @@
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\bin\Debug\net6.0\DemoClassLibrary1.deps.json
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\bin\Debug\net6.0\DemoClassLibrary1.dll
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\bin\Debug\net6.0\ref\DemoClassLibrary1.dll
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\bin\Debug\net6.0\DemoClassLibrary1.pdb
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\obj\Debug\net6.0\DemoClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\obj\Debug\net6.0\DemoClassLibrary1.AssemblyInfoInputs.cache
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\obj\Debug\net6.0\DemoClassLibrary1.AssemblyInfo.cs
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\obj\Debug\net6.0\DemoClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\obj\Debug\net6.0\DemoClassLibrary1.dll
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\obj\Debug\net6.0\ref\DemoClassLibrary1.dll
+C:\Rajbir\Coding\Azure\AZ-204\DemoProject\DemoClassLibrary1\obj\Debug\net6.0\DemoClassLibrary1.pdb
