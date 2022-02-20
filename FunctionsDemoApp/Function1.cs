@@ -8,6 +8,7 @@ using Microsoft.Azure.Storage.Blob;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
 namespace DemoFunctionsApp
@@ -15,12 +16,11 @@ namespace DemoFunctionsApp
     public class Function1
     {
 
-        //private readonly DemoDbContext _context;
-
-        //public Function1(DemoDbContext context)
-        //{
-        //    _context = context;
-        //}
+        private IConfiguration Configuration;
+        public Function1(IConfiguration _configuration)
+        {
+            Configuration = _configuration;
+        }
 
         [FunctionName("Function1")]
         public void Run([QueueTrigger("thumbnailrequest", Connection = "")] BlobInformation blobInfo,
@@ -45,14 +45,16 @@ namespace DemoFunctionsApp
             //connection.Close();
             //log.LogInformation("Connection Closed");
 
-            //var connectionstring = Environment.GetEnvironmentVariable("DemoDbContext");
 
-            //using (DemoDbContext db = new DemoDbContext())
-            //{
+            //To run function locally
+            //var options = new DbContextOptionsBuilder<DemoDbContext>();
+            //options.UseSqlServer(Environment.GetEnvironmentVariable("DemoDbContext"));
 
+            //To run function on server
             var options = new DbContextOptionsBuilder<DemoDbContext>();
-            options.UseSqlServer(Environment.GetEnvironmentVariable("DemoDbContext"));
-            //var h = new HttpContextAccessor() { HttpContext = req.HttpContext };
+            options.UseSqlServer(this.Configuration.GetConnectionString("DemoDbContext"));
+
+
             var db = new DemoDbContext(options.Options);
 
             var id = blobInfo.EmpId;
@@ -62,8 +64,7 @@ namespace DemoFunctionsApp
                 throw new Exception(String.Format("EmpId: {0} not found, can't create thumbnail", id.ToString()));
             }
             emp.ThumbnailUrl = outputBlob.Uri.ToString();
-            db.SaveChanges();
-            //}
+            db.SaveChanges();  
 
         }
         public void ConvertImageToThumbnailJPG(Stream input, Stream output)

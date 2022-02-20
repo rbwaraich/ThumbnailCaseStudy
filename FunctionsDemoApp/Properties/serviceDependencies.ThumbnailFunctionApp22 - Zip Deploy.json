@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/demoemployeestorage",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/demodbserver22/databases/DemoDb",
+      "type": "mssql.azure",
+      "connectionId": "DemoDbContext"
+    }
+  }
+}

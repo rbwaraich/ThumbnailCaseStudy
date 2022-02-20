@@ -1,0 +1,12 @@
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\bin\Release\net6.0\DemoClassLibrary.deps.json
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\bin\Release\net6.0\DemoClassLibrary.dll
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\bin\Release\net6.0\ref\DemoClassLibrary.dll
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\bin\Release\net6.0\DemoClassLibrary.pdb
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\obj\Release\net6.0\DemoClassLibrary.csproj.AssemblyReference.cache
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\obj\Release\net6.0\DemoClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\obj\Release\net6.0\DemoClassLibrary.AssemblyInfoInputs.cache
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\obj\Release\net6.0\DemoClassLibrary.AssemblyInfo.cs
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\obj\Release\net6.0\DemoClassLibrary.csproj.CoreCompileInputs.cache
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\obj\Release\net6.0\DemoClassLibrary.dll
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\obj\Release\net6.0\ref\DemoClassLibrary.dll
+C:\Rajbir\Coding\Azure\AZ-204\ThumbnailCaseStudy\DemoClassLibrary\obj\Release\net6.0\DemoClassLibrary.pdb
